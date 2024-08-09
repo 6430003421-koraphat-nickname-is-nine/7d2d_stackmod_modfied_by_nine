@@ -16,4 +16,4 @@ I also increase some of the weapon megazine size because why not?
 
 ## Download the mod
 
-[Download ZIP](https://github.com/myname/7d2d_stackmod_modfied_by_me/archive/refs/heads/main.zip)
+[Download ZIP](https://github.com/6430003421-koraphat-nickname-is-nine/7d2d_stackmod_modfied_by_nine)
