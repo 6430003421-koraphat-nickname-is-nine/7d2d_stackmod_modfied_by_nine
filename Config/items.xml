@@ -1,0 +1,51 @@
+<configs>
+  <set xpath="//item[starts-with(@name, 'resource')]/property[@name='Stacknumber']/@value">30000</set>  <!-- Resources -->
+  <set xpath="//item[starts-with(@name, 'resourceCrop')]/property[@name='Stacknumber']/@value">500</set>  <!-- Gathered Crops -->
+  <set xpath="//item[starts-with(@name, 'ammo')]/property[@name='Stacknumber']/@value">10000</set>  <!-- Ammo -->
+  <set xpath="//item[starts-with(@name, 'drink')]/property[@name='Stacknumber']/@value">500</set>  <!-- Drinks -->
+  <set xpath="//item[starts-with(@name, 'drug')]/property[@name='Stacknumber']/@value">1000</set>  <!-- Drugs -->
+  <set xpath="//item[starts-with(@name, 'food')]/property[@name='Stacknumber']/@value">1000</set>  <!-- Food -->
+  <set xpath="//item[starts-with(@name, 'foodCrop')]/property[@name='Stacknumber']/@value">1000</set>  <!-- Food Crops -->
+  <set xpath="//item[starts-with(@name, 'medical')]/property[@name='Stacknumber']/@value">500</set>  <!-- Medical -->
+  <set xpath="//item[starts-with(@name, 'thrown')]/property[@name='Stacknumber']/@value">100</set>  <!-- Grenades & Molotovs -->
+  <set xpath="//item[starts-with(@name, 'tool')]/property[@name='Stacknumber']/@value">250</set>  <!-- Tools -->
+
+  <!-- Bundles -->
+  <set xpath="//item[starts-with(@name, 'resource') and contains(@name, 'Bundle')]//property[@name='Create_item_count']/@value">30000</set>  <!-- Resource Bundles -->
+
+  <!-- Exceptions & Misc -->
+  <set xpath="//item[@name='ammoJunkTurretRegular']/property[@name='Stacknumber']/@value">5000</set>
+  <set xpath="//item[@name='ammoGasCan']/property[@name='Stacknumber']/@value">30000</set>
+  <set xpath="//item[@name='ammoGasCanBundle']//property[@name='Create_item_count']/@value">30000</set>  <!-- Gas Can Bundles -->
+  <set xpath="//item[@name='casinoCoin']/property[@name='Stacknumber']/@value">1000000</set> <!-- Dukes can't stack more than 25k -->
+  <set xpath="//item[@name='foodRawMeat']/property[@name='Stacknumber']/@value">1000</set>
+  <set xpath="//item[@name='foodRottingFlesh']/property[@name='Stacknumber']/@value">1000</set>
+  <set xpath="//item[@name='foodEgg']/property[@name='Stacknumber']/@value">500</set>
+  <set xpath="//item[@name='medicalAloeCream']/property[@name='Stacknumber']/@value">500</set>
+  <set xpath="//item[@name='medicalBloodBag']/property[@name='Stacknumber']/@value">500</set>
+  <set xpath="//item[@name='partsMaster']/property[@name='Stacknumber']/@value">100</set>
+  <set xpath="//item[@name='schematicMaster']/property[@name='Stacknumber']/@value">100</set>
+  <set xpath="//item[@name='smallEngine']/property[@name='Stacknumber']/@value">100</set>
+  <set xpath="//item[@name='resourceLockPick']/property[@name='Stacknumber']/@value">500</set>
+  
+  <set xpath="//item[@name='resourceLockPickBundle']//property[@name='Create_item_count']/@value">500</set> <!-- Lockpick Bundles -->
+  <!-- Self mod -->
+  <set xpath="//item[@name='meleeToolTorch']/property[@name='Stacknumber']/@value">500</set>
+  <set xpath="//item[@name='resourceHeadlight']/property[@name='Stacknumber']/@value">500</set>
+  <set xpath="//item[@name='gunMGT1AK47Parts']/property[@name='Stacknumber']/@value">500</set>
+  <set xpath="//item[@name='resourceSewingKit']/property[@name='Stacknumber']/@value">500</set>
+  <set xpath="//item[@name='partsMaster']/property[@name='Stacknumber']/@value">500</set>
+  <set xpath="//item[@name='blankNoteMaster']/property[@name='Stacknumber']/@value">500</set>
+
+  <!-- Gun modify -->
+  <!-- T3 -->
+  <set  xpath="//item[@name='gunMGT3M60']/effect_group[@name='gunMGT3M60']/passive_effect[@name='MagazineSize']/@value">120</set>
+  <set  xpath="//item[@name='gunHandgunT3SMG5']/effect_group[@name='gunHandgunT3SMG5']/passive_effect[@name='MagazineSize']/@value">60</set>
+  <set  xpath="//item[@name='gunShotgunT3AutoShotgun']/effect_group[@name='gunShotgunT3AutoShotgun']/passive_effect[@name='MagazineSize']/@value">32</set>
+  <set  xpath="//item[@name='gunRifleT3SniperRifle']/effect_group[@name='gunRifleT3SniperRifle']/passive_effect[@name='MagazineSize']/@value">24</set>
+  <set  xpath="//item[@name='gunExplosivesT3RocketLauncher']/effect_group[@name='gunExplosivesT3RocketLauncher']/passive_effect[@name='MagazineSize']/@value">30</set>
+  <set  xpath="//item[@name='gunHandgunT3DesertVulture']/effect_group[@name='gunHandgunT3DesertVulture']/passive_effect[@name='MagazineSize']/@value">20</set>
+  <set  xpath="//item[@name='gunBowT3CompoundBow']/effect_group[@name='gunBowT3CompoundBow']/passive_effect[@name='MagazineSize']/@value">30</set>
+  <set  xpath="//item[@name='gunBowT3CompoundCrossbow']/effect_group[@name='gunBowT3CompoundCrossbow']/passive_effect[@name='MagazineSize']/@value">30</set>
+
+</configs>
