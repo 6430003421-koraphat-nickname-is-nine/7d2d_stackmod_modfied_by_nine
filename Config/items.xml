@@ -7,7 +7,7 @@
   <set xpath="//item[starts-with(@name, 'food')]/property[@name='Stacknumber']/@value">1000</set>  <!-- Food -->
   <set xpath="//item[starts-with(@name, 'foodCrop')]/property[@name='Stacknumber']/@value">1000</set>  <!-- Food Crops -->
   <set xpath="//item[starts-with(@name, 'medical')]/property[@name='Stacknumber']/@value">500</set>  <!-- Medical -->
-  <set xpath="//item[starts-with(@name, 'thrown')]/property[@name='Stacknumber']/@value">100</set>  <!-- Grenades & Molotovs -->
+  <set xpath="//item[starts-with(@name, 'thrown')]/property[@name='Stacknumber']/@value">1000</set>  <!-- Grenades & Molotovs -->
   <set xpath="//item[starts-with(@name, 'tool')]/property[@name='Stacknumber']/@value">250</set>  <!-- Tools -->
 
   <!-- Bundles -->
