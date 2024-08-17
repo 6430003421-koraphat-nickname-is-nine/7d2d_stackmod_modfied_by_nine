@@ -1,0 +1,9 @@
+<configs>
+<!-- <set xpath="//item[starts-with(@name, 'resource')]/property[@name='Stacknumber']/@value">30000</set> -->
+ <!-- [@name='ammoGasCan'] -->
+<!-- <set xpath="//item_modifier[@name='modGunCrippleEm']/effect_group[@tiered='false']/requirement[@name='RandomRoll']/@value>">100</set> -->
+<set xpath="/item_modifier[@name='modGunCrippleEm']/effect_group/requirement[@name='RandomRoll' and @min_max='0,100']/@value">100</set>
+<set xpath="/item_modifier[@name='modGunCrippleEm']/effect_group/requirement[@name='RandomRoll' and @min_max='0,800']/@value">800</set>
+
+
+</configs>
