@@ -1,9 +1,18 @@
 <configs>
 <!-- <set xpath="//item[starts-with(@name, 'resource')]/property[@name='Stacknumber']/@value">30000</set> -->
  <!-- [@name='ammoGasCan'] -->
-<!-- <set xpath="//item_modifier[@name='modGunCrippleEm']/effect_group[@tiered='false']/requirement[@name='RandomRoll']/@value>">100</set> -->
-<set xpath="/item_modifier[@name='modGunCrippleEm']/effect_group/requirement[@name='RandomRoll' and @min_max='0,100']/@value">100</set>
-<set xpath="/item_modifier[@name='modGunCrippleEm']/effect_group/requirement[@name='RandomRoll' and @min_max='0,800']/@value">800</set>
+
+ <set xpath="//item_modifier[@name='modGunCrippleEm']/effect_group[1]/requirement[@name='RandomRoll']/@value">100</set>
+<!-- Shotgun case: RandomRoll still using 0-800, changing threshold to 800 = 100% -->
+<set xpath="//item_modifier[@name='modGunCrippleEm']/effect_group[2]/requirement[@name='RandomRoll']/@value">800</set>
+
+    <!-- Drum Magazine: 20x capacity -->
+	<set xpath="//item_modifier[@name='modGunDrumMagazineExtender']/effect_group/passive_effect[@name='MagazineSize']/@value">19</set>
+	<!-- Remove reload speed penalty -->
+	<set xpath="//item_modifier[@name='modGunDrumMagazineExtender']/effect_group/passive_effect[@name='ReloadSpeedMultiplier']/@value">0</set>
+
+	<!-- Standard Magazine Extender: 20x capacity -->
+	<set xpath="//item_modifier[@name='modGunMagazineExtender']/effect_group/passive_effect[@name='MagazineSize']/@value">19</set>
 
 
 </configs>
